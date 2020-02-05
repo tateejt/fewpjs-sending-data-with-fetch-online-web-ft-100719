@@ -1,5 +1,7 @@
 // Add your code here
 configurationObject = {
-  method: "POST"
-  
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  }
 };
